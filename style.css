@@ -17,13 +17,21 @@ body{
     background-image: url(images/halie-west-25xggax4bSA-unsplash\ \(1\).jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    width: 400px;
+    width: 300px;
     height: 800px;
 }
 
 .col2{
-    width: 400px;
+    width: 550px;
     background-color: whitesmoke;
+}
+
+.logo{
+    width: 300px;
+    height: 90px;
+    background-color: rgb(24, 22, 22);
+    margin-top: 200px;
+
 }
 
 
