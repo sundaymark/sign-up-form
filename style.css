@@ -17,23 +17,34 @@ body{
     background-image: url(images/halie-west-25xggax4bSA-unsplash\ \(1\).jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    width: 300px;
+    width: 350px;
     height: 800px;
 }
 
 .col2{
-    width: 550px;
+    width: 500px;
     background-color: whitesmoke;
 }
 
 .logo{
-    width: 300px;
+    width: 350px;
     height: 90px;
     background-color: rgb(24, 22, 22);
-    margin-top: 350px;
-    
-
+    margin-top: 190px;
 }
+
+.para1{
+    margin-top: 150px;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+
+.para2{
+    font-size: 20px;
+    font-family:sans-serif;
+    margin-top: 20px;
+}
+
 
 
 
