@@ -67,7 +67,11 @@ button{
     display: flex;
     margin: 10px;
     border-radius: 5px;
+}
 
+input{
+    width: 150px;
+    border-radius: 10px;
 }
 
 
