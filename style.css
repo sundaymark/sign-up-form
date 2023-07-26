@@ -22,7 +22,7 @@ body{
 }
 
 .col2{
-    width: 500px;
+    width: 550px;
     background-color: whitesmoke;
 }
 
@@ -43,6 +43,31 @@ body{
     font-size: 20px;
     font-family:sans-serif;
     margin-top: 20px;
+}
+
+.form1{
+    background-color: rgb(220, 214, 214);
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.para3{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.upperside{
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+
 }
 
 
