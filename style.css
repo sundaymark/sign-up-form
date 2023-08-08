@@ -1,79 +1,75 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
 }
 
-.container{
-   display: flex;
-   margin-left: 250px;
+.container {
+    display: flex;
+    margin-left: 250px;
 }
 
-.col1{
+.col1 {
     background-image: url(images/halie-west-25xggax4bSA-unsplash\ \(1\).jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 350px;
     height: 800px;
 }
 
-.col2{
+.col2 {
     width: 550px;
     background-color: whitesmoke;
 }
 
-.logo{
+.logo {
     width: 350px;
     height: 90px;
     background-color: rgb(24, 22, 22);
     margin-top: 190px;
 }
 
-.para1{
+.para1 {
     margin-top: 150px;
     font-size: 20px;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
-.para2{
+.para2 {
     font-size: 20px;
-    font-family:sans-serif;
+    font-family: sans-serif;
     margin-top: 20px;
 }
 
-.form1{
+.form1 {
     background-color: rgb(220, 214, 214);
 }
 
-button{
+button {
     background-color: #596D48;
     color: white;
     border-radius: 10px;
     margin: 20px;
     padding: 10px;
-    
+
 }
 
-.para3{
+.para3 {
     font-size: 30px;
     margin-top: 20px;
 }
 
-.upperside{
+.upperside {
     display: flex;
     margin: 10px;
     border-radius: 5px;
 }
 
-input{
+input {
     width: 150px;
     border-radius: 10px;
 }
-
-
-
-
