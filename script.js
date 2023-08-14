@@ -1,8 +1,13 @@
-const firstName = document.getElementsByClassName('fname');
-const lastName = document.getElementsByClassName('lname');
-const email = document.getElementsByClassName('email');
-const phoneNumber = document.getElementsByClassName('pnumber');
-const passWord = document.getElementsByClassName('password');
-const confirmPassword = document.getElementsByClassName('error');
-const btn = document.getElementsByClassName('btn');
+ const button = document.querySelector('button').addEventListener(onclick,function(){
+    const password = document.querySelector('password').value;
+    const confirmpassword = document.querySelector('confirmpassword').value;
+
+    if(password.value != confirmpassword.value){
+        alert('passwords did not match try again.');
+        return false
+    }else if(password.value == confirmpassword.value){
+        alert('password match')
+    }
+    return true;
+})
 
