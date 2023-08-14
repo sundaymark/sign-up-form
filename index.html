@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FORM PROJECT</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="container">
     <div class="col1">
@@ -20,12 +22,13 @@
 
       <div class="form1">
         <div class="para3">Let do this!</div>
+
         <div class="upperside">
-          <form action="/" method="get">
-          <label for="firstName">FIRST NAME</label>
-          <input type="text" class="fname" placeholder="Enter first name" name="fname" required>
-          <label for="lastName">LAST NAME</label>
-          <input type="text" class="lname" name="lname" placeholder="Enter last name" required>
+          <form action="/" method="post" id="form">
+            <label for="firstName">FIRST NAME</label>
+            <input type="text" class="fname" placeholder="Enter first name" name="fname" required>
+            <label for="lastName">LAST NAME</label>
+            <input type="text" class="lname" name="lname" placeholder="Enter last name" required>
         </div>
 
         <div class="upperside">
@@ -37,22 +40,25 @@
 
         <div class="upperside">
           <label for="pword">PASSWORD</label>
-          <input type="password" class="password" placeholder="Enter password" name="pword" required>
+          <input type="password" class="password" placeholder="Enter password" name="pword" required minlength="4"
+            maxlength="12">
           <label for="password">CONFIRM PASSWORD</label>
-          <input type="password" class="error" name="password" placeholder="Confirm Password" required>
+          <input type="password" class="confirmpassword" name="password" placeholder="Confirm Password" required
+            minlength="4" maxlength="12">
         </div>
       </div>
 
       <div class="btn">
         <button>Create Account</button>
       </div>
-    </form>
+      </form>
 
       <p>Already have an account? <a href="#">log in</a></p>
     </div>
 
   </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
