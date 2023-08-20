@@ -1,75 +1,133 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .container {
-    display: flex;
-    margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin-inline: auto;
+  max-width: 1440px;
+  align-items: stretch;
 }
 
 .col1 {
-    background-image: url(images/halie-west-25xggax4bSA-unsplash\ \(1\).jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 350px;
-    height: 800px;
+  background-image: url(images/flower-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-grow: 1;
 }
 
 .col2 {
-    width: 550px;
-    background-color: whitesmoke;
+  width: 65%;
+  background-color: #f9fafb;
 }
 
 .logo {
-    width: 350px;
-    height: 90px;
-    background-color: rgb(24, 22, 22);
-    margin-top: 190px;
+  width: 100%;
+  background-color: rgb(24, 22, 22);
+  margin-top: 190px;
+  display: block;
+  margin-inline: auto;
 }
 
 .para1 {
-    margin-top: 150px;
-    font-size: 20px;
-    font-family: sans-serif;
+  margin-top: 150px;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 .para2 {
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-top: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.para1,
+.para2 {
+  padding-left: 30px;
+  max-width: 70%;
+  font-weight: 600;
 }
 
 .form1 {
-    background-color: rgb(220, 214, 214);
+  padding: 30px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
 }
 
-button {
-    background-color: #596D48;
-    color: white;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 10px;
-
+button.submit-btn {
+  background-color: #596d48;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .para3 {
-    font-size: 30px;
-    margin-top: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 500;
 }
 
 .upperside {
-    display: flex;
-    margin: 10px;
-    border-radius: 5px;
+  display: flex;
+  gap: 50px;
+  border-radius: 5px;
+  margin-block: 20px;
 }
 
 input {
-    width: 150px;
-    border-radius: 10px;
+  min-width: 250px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #e5e7eb;
+  padding: 7px;
+}
+
+input:focus {
+  box-shadow: 1px 1px 4px #eeeeee;
+  border: 1px solid #cbd4ee;
+  outline: none;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+input.error {
+  border-color: #ff0000;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.account-exist {
+  padding: 30px;
+  font-weight: 500;
+}
+
+.error-text {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+.login-link {
+  text-decoration: none;
 }
